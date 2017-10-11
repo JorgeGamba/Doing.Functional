@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Doing.Functional\Doing.Functional.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Doing.BDDExtensions" Version="0.1.0" />
+    <PackageReference Include="FluentAssertions" Version="5.0.0-beta0003" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0-preview-20171009-10" />
+    <PackageReference Include="NUnit" Version="3.8.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+  </ItemGroup>
+</Project>
